@@ -7,6 +7,9 @@ jobs:
     steps:
       - name: Call Reusbable Workflow
         uses: rahulgauli/repo/.github/WORKFLOWS/scanner.yaml@main
+        with:
+          product_id: '123'
+          scan_type: 'full'
       
       - name: Print Github Context 
         env:
