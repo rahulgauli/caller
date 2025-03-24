@@ -6,7 +6,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Call Reusbable Workflow
-        uses: rahulgauli/repo/.github/WORKFLOWS/scanner.yaml@main
+        uses: rahulgauli/workflowtest/.github/WORKFLOWS/scanner.yaml@main
       
       - name: Print Github Context 
         env:
