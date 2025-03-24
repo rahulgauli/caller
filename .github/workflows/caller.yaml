@@ -1,17 +1,10 @@
 name: Launch GitHub Security Scanning Workflow
 on:
   workflow_dispatch:
+  
 jobs:
-  lets_start_sculpting:
-    runs-on: ubuntu-latest
-    steps:
-      - name: Call Reusbable Workflow
-        uses: rahulgauli/workflowtest/.github/workflows/scanner.yaml@main
-        with:
-          product_id: '123'
-          scan_type: 'full'
-      
-      - name: Print Github Context 
-        env:
-          github_context: ${{ toJson(github) }}
-        run: echo "$github_context"
+  use_the_reusable_workflow:
+    uses: rahulgauli/workflowtest/.github/workflows/scanner.yaml@main
+    with:
+      product_id: '123'
+      scan_type: 'full'
