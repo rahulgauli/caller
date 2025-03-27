@@ -4,3 +4,6 @@ def main():
 
 def revitalize_life():
   return {"FixingBugsIsFun":"Not everyday though"}
+
+def next_revitalization_life():
+  return {"If we fix everything in life":"Are we god"}
