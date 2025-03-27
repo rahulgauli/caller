@@ -6,6 +6,7 @@ on:
   
 jobs:
   use_the_reusable_workflow:
+    secrets: inherit
     uses: rahulgauli/workflowtest/.github/workflows/scanner.yaml@main
     with:
       product_id: '123'
