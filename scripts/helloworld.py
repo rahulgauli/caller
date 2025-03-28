@@ -23,3 +23,4 @@ def afno_bas_ma_nabhako_kura():
 
 def nepal_ma_ni_tsto_hideko_chaina():
   return 10
+#now?
