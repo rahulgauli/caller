@@ -5,7 +5,7 @@ on:
   workflow_dispatch:
   
 jobs:
-  coffeeScanner:
+  pirateCoffeeScanner:
     uses: rahulgauli/workflowtest/.github/workflows/scanner.yaml@main
     with:
       product_id: '123'
