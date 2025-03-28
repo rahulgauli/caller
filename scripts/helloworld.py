@@ -14,3 +14,6 @@ def i_am_going_to_write_bad_code():
 
 def nepal_is_a_small_country():
   return {"king":"jingle"}
+
+def baideshik_yatra():
+  return "espali hune"
