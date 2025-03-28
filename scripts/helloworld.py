@@ -7,3 +7,7 @@ def revitalize_life():
 
 def next_revitalization_life():
   return {"If we fix everything in life":"Are we god"}
+
+def i_am_going_to_write_bad_code():
+  token = "asdf23adsf4356q3405204 this is a password I forgot to check"
+  return "I am an idiot :D " 
