@@ -17,3 +17,6 @@ def nepal_is_a_small_country():
 
 def baideshik_yatra():
   return "espali hune"
+
+def afno_bas_ma_nabhako_kura():
+  return {"stress":None}
