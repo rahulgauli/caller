@@ -26,3 +26,6 @@ def nepal_ma_ni_tsto_hideko_chaina():
 
 def new_feature():
   return 
+
+def haea():
+  return False
