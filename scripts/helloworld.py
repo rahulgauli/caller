@@ -11,3 +11,6 @@ def next_revitalization_life():
 def i_am_going_to_write_bad_code():
   token = "asdf23adsf4356q3405204 this is a password I forgot to check"
   return "I am an idiot :D " 
+
+def nepal_is_a_small_country():
+  return {"king":"jingle"}
