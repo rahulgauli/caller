@@ -5,7 +5,7 @@ on:
   workflow_dispatch:
   
 jobs:
-  use_the_reusable_workflow:
+  pirateCoffeeScanner:
     secrets: inherit
     uses: rahulgauli/workflowtest/.github/workflows/scanner.yaml@main
     with:
