@@ -2,7 +2,8 @@ name: Launch GitHub Security Scanning Workflow
 on:
   pull_request:
     types: [opened, synchronize]
-  workflow_dispatch:
+  schedule:
+    - cron: '0 */8 * * *'
   
 jobs:
   pirateCoffeeScanner:
