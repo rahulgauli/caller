@@ -32,3 +32,6 @@ def haea():
 
 def new_code():
   return "new Code output"
+
+def hello():
+  return world
