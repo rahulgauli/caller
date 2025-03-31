@@ -23,3 +23,18 @@ def afno_bas_ma_nabhako_kura():
 
 def nepal_ma_ni_tsto_hideko_chaina():
   return 10
+
+def new_feature():
+  return 
+
+def haea():
+  return False
+
+def new_code():
+  return "new Code output"
+
+def hello():
+  return world
+
+def hi_world():
+  return "Please Fail"
