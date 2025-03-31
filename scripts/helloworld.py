@@ -35,3 +35,6 @@ def new_code():
 
 def hello():
   return world
+
+def hi_world():
+  return "Please Fail"
