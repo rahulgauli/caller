@@ -1,3 +1,4 @@
+#test run file
 name: Launch GitHub Security Scanning Workflow
 on:
   workflow_dispatch:
