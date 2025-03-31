@@ -29,3 +29,6 @@ def new_feature():
 
 def haea():
   return False
+
+def new_code():
+  return "new Code output"
