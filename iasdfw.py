@@ -15,3 +15,7 @@ class AlwaysKeepItSimpleWhenWritingCode():
 
   async def simple_functions():
     pass
+
+  @staticmethod
+  async def unattached_but_linked_functions():
+    pass
