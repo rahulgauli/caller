@@ -6,3 +6,6 @@ class Kingdom_OF_DREAMS(BaseSettings):
 
 
 # kings_ = Kingdom_OF_DREAMS()
+
+class AlwaysKeepItSimpleWhenWritingCode():
+  pass
