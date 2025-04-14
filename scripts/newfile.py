@@ -13,3 +13,5 @@ def version1():
   return
 def testbeta():
   return
+def muskil():
+  return
