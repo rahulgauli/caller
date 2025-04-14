@@ -8,7 +8,7 @@ on:
 jobs:
   pirateCoffeeScanner:
     secrets: inherit
-    uses: rahulgauli/workflowtest/.github/workflows/scanner.yaml@v1
+    uses: rahulgauli/workflowtest/.github/workflows/scanner.yaml@v0.0.1-beta
     with:
       product_id: '123'
       scan_type: 'full'
